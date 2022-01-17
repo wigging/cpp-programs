@@ -3,10 +3,8 @@ baseurl: /cpp-programs
 collections:
   getting_started:
     output: true
-    permalink: /:name
   standard_library:
     output: true
-    permalink: /:name
 
 defaults:
   - scope:
