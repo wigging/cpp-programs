@@ -1,13 +1,5 @@
 /*--- All screens ---*/
 
-.container {
-    max-width: 700px;
-}
-
-.large-img {
-    max-width: 100%;
-}
-
 a {
     text-decoration: none;
 }
@@ -20,28 +12,28 @@ body {
     background-color: #fffff8;
 }
 
-h1 {
-    margin-bottom: 3rem;
-    margin-top: 4rem;
+h1, h2, h4 {
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
 }
 
-h2, h4 {
-    margin-top: 2rem;
+p, ul {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
 }
 
 img {
-    max-width: 400px;
+    margin-bottom: 20px;
 }
 
 .image600 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 600px;
-    width: 100%;
-}
-
-/* Make code blocks scroll horizontally */
-pre code {
-    white-space: pre;
-    word-wrap: normal;
 }
 
 /*--- Mobile screens ---*/
@@ -55,5 +47,22 @@ pre code {
     img {
         max-width: 100%;
     }
+}
 
+/*--- Dark mode ---*/
+
+@media screen and (prefers-color-scheme: dark) {
+
+    a {
+        color: deepskyblue;
+    }
+
+    a:hover {
+        color: dodgerblue;
+    }
+
+    body {
+        background-color: rgb(35, 39, 45);
+        color: rgb(223, 223, 224);
+    }
 }
