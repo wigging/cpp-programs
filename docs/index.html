@@ -23,16 +23,17 @@
 
                 <h4>Getting started</h4>
                 <ul>
-                {% for gs in site.getting_started %}
-                    <li><a href="{{ site.baseurl }}{{ gs.url }}">{{ gs.title }}</a></li>
-                {% endfor %}
+                    <li><a href="{{ site.baseurl }}{% link _getting_started/clang-macos.md %}">Clang on macOS</a></li>
+                    <li><a href="{{ site.baseurl }}{% link _getting_started/helloworld.md %}">Hello world</a></li>
+                    <li><a href="{{ site.baseurl }}{% link _getting_started/resources.md %}">Resources</a></li>
                 </ul>
 
                 <h4>Standard library</h4>
                 <ul>
-                {% for st in site.standard_library %}
-                    <li><a href="{{ site.baseurl }}{{ st.url }}">{{ st.title }}</a></li>
-                {% endfor %}
+                    <li><a href="{{ site.baseurl }}{% link _standard_library/comments.md %}">Comments</a></li>
+                    <li><a href="{{ site.baseurl }}{% link _standard_library/numbers.md %}">Numbers</a></li>
+                    <li><a href="{{ site.baseurl }}{% link _standard_library/strings.md %}">Strings</a></li>
+                    <li><a href="{{ site.baseurl }}{% link _standard_library/commandline.md %}">Command line arguments</a></li>
                 </ul>
             </div>
         </div>
