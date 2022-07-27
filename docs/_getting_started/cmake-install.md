@@ -48,8 +48,12 @@ MyProject
     └── main.cpp
 ```
 
-Remove the build directory to clear the project of built files and other output generated from CMake. Also, remove the files listed in the install_manifest text file.
+Remove the build directory to clear the project of built files and other output generated from the build process. Also, remove the files listed in the install_manifest text file to cleanup files generated from the install process.
 
 ```bash
+# Remove the build directory
 $ rm -rf build
+
+# Remove installed files
+$ cat build/install_manifest.txt| xargs rm
 ```
