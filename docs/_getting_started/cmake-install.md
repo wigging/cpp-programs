@@ -55,5 +55,5 @@ Remove the build directory to clear the project of built files and other output 
 $ rm -rf build
 
 # Remove installed files
-$ cat build/install_manifest.txt| xargs rm
+$ cat build/install_manifest.txt | xargs rm
 ```
