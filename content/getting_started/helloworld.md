@@ -1,6 +1,6 @@
 ---
 title: Hello world
-permalink: helloworld
+date: December 13, 2022
 ---
 
 Here is a simple example of a C++ program in a file named `helloworld.cpp`.

@@ -1,6 +1,6 @@
 ---
 title: Clang on macOS
-permalink: clangmacos
+date: December 13, 2022
 ---
 
 Check if the clang compiler is installed on your Mac using the following terminal command:

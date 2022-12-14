@@ -1,6 +1,6 @@
 ---
 title: Comments
-permalink: comments
+date: December 13, 2022
 ---
 
 C++ supports single-line and multiline comments. A single-line comment is represented by two forward slashes `//`.

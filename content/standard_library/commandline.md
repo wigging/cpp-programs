@@ -1,6 +1,6 @@
 ---
 title: Command line arguments
-permalink: commandline
+date: December 13, 2022
 ---
 
 To pass command line arguments to a program, define `main()` with two arguments. The `argc` argument is the number of command line arguments including the program name while `argv` is the list of arguments passed to the program.
@@ -30,8 +30,8 @@ clang++ commandline.cpp -o commandline
 
 The printed output for the above example is shown below.
 
-```
+```text
 argc is 2
 argv 0 is ./commandline
 argv 1 is hellothere
-````
+```

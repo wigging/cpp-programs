@@ -1,6 +1,6 @@
 ---
 title: CMake install
-permalink: cmakeinstall
+date: December 13, 2022
 ---
 
 Below is an example C++ project. The CMakeLists file contains instructions for building and installing the project using the CMake command line tool.

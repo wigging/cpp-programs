@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap https://getbootstrap.com -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- Highlightjs https://highlightjs.org -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/github-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+
+    <link rel="stylesheet" href="../style.css">
+    <title>C++ Programs</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md">
+
+<h1>CMake install</h1>
+<h6>December 13, 2022</h6>
+<hr>
+
+<p>Below is an example C++ project. The CMakeLists file contains instructions for building and installing the project using the CMake command line tool.</p>
+<pre><code>MyProject
+├── CMakeLists.txt
+└── src
+    ├── adder.cpp
+    ├── adder.h
+    └── main.cpp
+</code></pre>
+<p>Use the commands shown here to build and install the project with CMake. After installing the project, the executable named AdderExample is available from the command line.</p>
+<pre><code class="language-bash"># Configure the project and generate a native build system
+$ cmake -S . -B build
+
+# Call the build system to compile/link the project
+$ cmake --build build
+
+# Install the executable to usr/local/bin
+$ cmake --install build
+
+# Run the executable, assumes usr/local/bin is in your path
+$ AdderExample
+</code></pre>
+<p>The structure of the project after running the Cmake commands is shown below. The install_manifest in the build directory lists all the files installed on the machine.</p>
+<pre><code>MyProject
+├── CMakeLists.txt
+├── build
+│   ├── AdderExample
+│   ├── CMakeCache.txt
+│   ├── CMakeFiles
+│   ├── Makefile
+│   ├── cmake_install.cmake
+│   └── install_manifest.txt
+└── src
+    ├── adder.cpp
+    ├── adder.h
+    └── main.cpp
+</code></pre>
+<p>Remove the build directory to clear the project of built files and other output generated from the build process. Also, remove the files listed in the install_manifest text file to cleanup files generated from the install process.</p>
+<pre><code class="language-bash"># Remove the build directory
+$ rm -rf build
+
+# Remove installed files
+$ cat build/install_manifest.txt | xargs rm
+</code></pre>
+
+        </div>
+    </div>
+    <div class="row my-5">
+        <div class="col-md">
+            <p class="text-center small my-5">
+                ⚙️ 🖥 <a href="https://gavinw.me/cpp-programs/">C++ Programs</a><br>
+                by Gavin Wiggins © 2022
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

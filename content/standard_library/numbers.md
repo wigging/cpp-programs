@@ -1,6 +1,6 @@
 ---
 title: Numbers
-permalink: numbers
+date: December 13, 2022
 ---
 
 Examples of integer, float, and double numbers are given below. An integer is just a whole number (no decimals). A float is a number with up to 7 decimal digits and a double is up to 15 decimal digits of precision.

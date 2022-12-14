@@ -1,6 +1,6 @@
 ---
 title: Resources
-permalink: resources
+date: December 13, 2022
 ---
 
 Below are some useful resources for learning C++ programming.
