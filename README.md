@@ -1,10 +1,14 @@
-# C++ Programs
+# ⚙️ C++ Programs
 
-Nothing great to say about the C++ programming language. This repository contains examples that demonstrate various aspects of C++ programming. The examples are discussed on my personal website at https://gavinw.me.
+The C++ programming language is a grind. Nothing great to say about it. Anyway, this repository and accompanying website provide concise code examples that demonstrate various aspects of C++ programming. The website is available at https://gavinw.me/cpp-programs.
 
 ## Examples
 
-Examples are available in the `cpp-projects` and `cpp-scripts` folders.
+Example code is located in the `cpp-projects` and `cpp-scripts` folders.
+
+## Website
+
+The website is generated with [Zola](https://www.getzola.org) using the `content`, `static`, `templates` folders, and the `config.toml` file. It is hosted with GitHub Pages from the `docs` folder.
 
 ## Contributing
 
