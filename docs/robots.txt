@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://gavinw.me/cpp-programs/sitemap.xml

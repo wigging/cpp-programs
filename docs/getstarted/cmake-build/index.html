@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://gavinw.me/cpp-programs/rss.xml" rel="alternate" type="application/rss+xml" title="RSS">
+    <link href="https://gavinw.me/cpp-programs/styles.css" rel="stylesheet">
+    <title>C++ Programs</title>
+</head>
+<body>
+<div class="container">
+    
+<div class="row">
+<div class="col">
+    <h1>CMake build</h1>
+    
+        <h6>December 13, 2022</h6>
+    
+    <hr>
+    <p>Below is an example C++ project. The CMakeLists file contains instructions for building the project using the CMake command line tool.</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>MyProject
+</span><span>├── CMakeLists.txt
+</span><span>└── src
+</span><span>    ├── adder.cpp
+</span><span>    ├── adder.h
+</span><span>    └── main.cpp
+</span></code></pre>
+<p>Use the commands shown here to build the project with CMake. After building the project, the executable named AdderExample is available in the build directory.</p>
+<pre data-lang="bash" style="background-color:#2b303b;color:#c0c5ce;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#65737e;"># Configure the project and generate a native build system
+</span><span style="color:#65737e;"># This creates a directory named `build`
+</span><span style="color:#bf616a;">$</span><span> cd MyProject
+</span><span style="color:#bf616a;">$</span><span> cmake</span><span style="color:#bf616a;"> -S</span><span> .</span><span style="color:#bf616a;"> -B</span><span> build
+</span><span>
+</span><span style="color:#65737e;"># Call the build system to compile/link the project
+</span><span style="color:#bf616a;">$</span><span> cmake</span><span style="color:#bf616a;"> --build</span><span> build
+</span><span>
+</span><span style="color:#65737e;"># Run the executable
+</span><span style="color:#bf616a;">$</span><span> ./build/AdderExample
+</span></code></pre>
+<p>The structure of the project after running the build command is shown below.</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>MyProject
+</span><span>├── CMakeLists.txt
+</span><span>├── build
+</span><span>│   ├── AdderExample
+</span><span>│   ├── CMakeCache.txt
+</span><span>│   ├── CMakeFiles
+</span><span>│   ├── Makefile
+</span><span>│   └── cmake_install.cmake
+</span><span>└── src
+</span><span>    ├── adder.cpp
+</span><span>    ├── adder.h
+</span><span>    └── main.cpp
+</span></code></pre>
+<p>Remove the build directory to clear the project of built files and other output generated from CMake.</p>
+<pre data-lang="bash" style="background-color:#2b303b;color:#c0c5ce;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#bf616a;">$</span><span> rm</span><span style="color:#bf616a;"> -rf</span><span> build
+</span></code></pre>
+
+</div>
+</div>
+<div class="row my-5">
+<div class="col">
+    <p class="text-center small my-5">
+        <a href="https://gavinw.me/cpp-programs/">C++ Programs</a> © 2023 <br>
+        Built by <a href="https://gavinw.me">Gavin Wiggins</a>
+    </p>
+</div>
+</div>
+
+</div>
+</body>
+</html>
