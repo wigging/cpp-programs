@@ -1,7 +1,7 @@
-+++
-title = "Resources"
-date = 2022-12-13
-+++
+---
+title: Resources
+date: December 13, 2022
+---
 
 Below are some useful resources for learning C++ programming.
 

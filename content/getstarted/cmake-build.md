@@ -1,7 +1,7 @@
-+++
-title = "CMake build"
-date = 2022-12-13
-+++
+---
+title: CMake build
+date: December 13, 2022
+---
 
 Below is an example C++ project. The CMakeLists file contains instructions for building the project using the CMake command line tool.
 

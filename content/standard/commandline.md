@@ -1,7 +1,7 @@
-+++
-title = "Command line arguments"
-date = 2022-12-13
-+++
+---
+title: Command line arguments
+date: December 13, 2022
+---
 
 To pass command line arguments to a program, define `main()` with two arguments. The `argc` argument is the number of command line arguments including the program name while `argv` is the list of arguments passed to the program.
 

@@ -1,7 +1,7 @@
-+++
-title = "Hello world"
-date = 2022-12-13
-+++
+---
+title: Hello world
+date: December 13, 2022
+---
 
 Here is a simple example of a C++ program in a file named `helloworld.cpp`.
 

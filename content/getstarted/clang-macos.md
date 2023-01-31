@@ -1,7 +1,7 @@
-+++
-title = "Clang on macOS"
-date = 2022-12-13
-+++
+---
+title: Clang on macOS
+date: December 13, 2022
+---
 
 Check if the clang compiler is installed on your Mac using the following terminal command:
 

@@ -1,7 +1,7 @@
-+++
-title = "Strings"
-date = 2022-12-13
-+++
+---
+title: Strings
+date: December 13, 2022
+---
 
 Examples of working with strings are given below.
 
