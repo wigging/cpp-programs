@@ -3,7 +3,7 @@ title: Include function
 date: July 25, 2023
 ---
 
-The `main.cpp` example uses the `Log()` function to print a string to the screen. This function is implemented in `logger.cpp` and `logger.h`.
+This example uses a function defined in another file. The `main.cpp` example uses the `Log()` function to print a string to the screen. This function is implemented in `logger.cpp` and `logger.h`.
 
 ```cpp
 // main.cpp

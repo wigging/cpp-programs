@@ -25,23 +25,50 @@
     <div class="row">
         <div class="col-md">
 
-        <h1>Hello world</h1>
-        <h6>December 13, 2022</h6>
+        <h1>Include function</h1>
+        <h6>July 25, 2023</h6>
         <hr>
 
-        <p>Here is a simple example of a C++ program in a file named <code>helloworld.cpp</code>.</p>
-<pre><code class="language-cpp">// helloworld.cpp
+        <p>This example uses a function defined in another file. The <code>main.cpp</code> example uses the <code>Log()</code> function to print a string to the screen. This function is implemented in <code>logger.cpp</code> and <code>logger.h</code>.</p>
+<pre><code class="language-cpp">// main.cpp
 
 #include &lt;iostream&gt;
+#include &lt;string&gt;
 
-int main()
-{
-    std::cout &lt;&lt; &quot;Hello world!&quot; &lt;&lt; std::endl;
-    return 0;
+#include &quot;logger.h&quot;
+
+int main() {
+    std::cout &lt;&lt; &quot;Logger program&quot; &lt;&lt; std::endl;
+
+    std::string message = &quot;Hello from the logger&quot;;
+    Log(message);
 }
 </code></pre>
-<p>Use the terminal command shown below to build and run the program. You should see the words <code>Hello world!</code> printed in the terminal.</p>
-<pre><code class="language-bash">clang++ helloworld.cpp -o helloworld; ./helloworld
+<pre><code class="language-cpp">// logger.cpp
+
+#include &lt;iostream&gt;
+#include &lt;string&gt;
+
+#include &quot;logger.h&quot;
+
+void Log(const std::string&amp; input) {
+    std::cout &lt;&lt; input &lt;&lt; std::endl;
+}
+</code></pre>
+<pre><code class="language-cpp">// logger.h
+
+#pragma once
+
+#include &lt;string&gt;
+
+void Log(const std::string&amp; input);
+</code></pre>
+<p>The output from running this example is shown below.</p>
+<pre><code class="language-text">$ clang++ main.cpp logger.cpp -o main
+$ ./main
+
+Logger program
+Hello from the logger
 </code></pre>
 
         </div>
