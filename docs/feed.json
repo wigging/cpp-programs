@@ -5,6 +5,13 @@
     "feed_url": "https://wigging.me/cpp-programs/feed.json",
     "items": [
         {
+            "id": "https://wigging.me/cpp-programs/standard/array2d.html",
+            "url": "https://wigging.me/cpp-programs/standard/array2d.html",
+            "title": "Array with two-dimensions",
+            "date_published": "2023-08-13T00:00:00Z",
+            "content_html": "<p>A two-dimensional array can be created using the traditional C-style array or with the C++ standard array container. Both approaches are demonstrated below.</p><p><a href=\"https://wigging.me/cpp-programs/standard/array2d.html\">Continue reading...</a></p>"
+        },
+        {
             "id": "https://wigging.me/cpp-programs/standard/include-function.html",
             "url": "https://wigging.me/cpp-programs/standard/include-function.html",
             "title": "Include function",
