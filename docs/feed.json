@@ -1,85 +1,85 @@
 {
     "version": "https://jsonfeed.org/version/1.1",
     "title": "Rusty",
-    "home_page_url": "https://wigging.me/cpp-programs/",
-    "feed_url": "https://wigging.me/cpp-programs/feed.json",
+    "home_page_url": "https://gavinw.me/cpp-programs/",
+    "feed_url": "https://gavinw.me/cpp-programs/feed.json",
     "items": [
         {
-            "id": "https://wigging.me/cpp-programs/standard/array2d.html",
-            "url": "https://wigging.me/cpp-programs/standard/array2d.html",
+            "id": "https://gavinw.me/cpp-programs/standard/array2d.html",
+            "url": "https://gavinw.me/cpp-programs/standard/array2d.html",
             "title": "Array with two-dimensions",
             "date_published": "2023-08-13T00:00:00Z",
-            "content_html": "<p>A two-dimensional array can be created using the traditional C-style array or with the C++ standard array container. Both approaches are demonstrated below.</p><p><a href=\"https://wigging.me/cpp-programs/standard/array2d.html\">Continue reading...</a></p>"
+            "content_html": "<p>A two-dimensional array can be created using the traditional C-style array or with the C++ standard array container. Both approaches are demonstrated below.</p><p><a href=\"https://gavinw.me/cpp-programs/standard/array2d.html\">Continue reading...</a></p>"
         },
         {
-            "id": "https://wigging.me/cpp-programs/standard/include-function.html",
-            "url": "https://wigging.me/cpp-programs/standard/include-function.html",
+            "id": "https://gavinw.me/cpp-programs/standard/include-function.html",
+            "url": "https://gavinw.me/cpp-programs/standard/include-function.html",
             "title": "Include function",
             "date_published": "2023-07-25T00:00:00Z",
-            "content_html": "<p>This example uses a function defined in another file. The <code>main.cpp</code> example uses the <code>Log()</code> function to print a string to the screen. This function is implemented in <code>logger.cpp</code> and <code>logger.h</code>.</p><p><a href=\"https://wigging.me/cpp-programs/standard/include-function.html\">Continue reading...</a></p>"
+            "content_html": "<p>This example uses a function defined in another file. The <code>main.cpp</code> example uses the <code>Log()</code> function to print a string to the screen. This function is implemented in <code>logger.cpp</code> and <code>logger.h</code>.</p><p><a href=\"https://gavinw.me/cpp-programs/standard/include-function.html\">Continue reading...</a></p>"
         },
         {
-            "id": "https://wigging.me/cpp-programs/standard/strings.html",
-            "url": "https://wigging.me/cpp-programs/standard/strings.html",
+            "id": "https://gavinw.me/cpp-programs/standard/strings.html",
+            "url": "https://gavinw.me/cpp-programs/standard/strings.html",
             "title": "Strings",
             "date_published": "2022-12-13T00:00:00Z",
-            "content_html": "<p>Examples of working with strings are given below.</p><p><a href=\"https://wigging.me/cpp-programs/standard/strings.html\">Continue reading...</a></p>"
+            "content_html": "<p>Examples of working with strings are given below.</p><p><a href=\"https://gavinw.me/cpp-programs/standard/strings.html\">Continue reading...</a></p>"
         },
         {
-            "id": "https://wigging.me/cpp-programs/standard/comments.html",
-            "url": "https://wigging.me/cpp-programs/standard/comments.html",
+            "id": "https://gavinw.me/cpp-programs/standard/comments.html",
+            "url": "https://gavinw.me/cpp-programs/standard/comments.html",
             "title": "Comments",
             "date_published": "2022-12-13T00:00:00Z",
-            "content_html": "<p>C++ supports single-line and multiline comments. A single-line comment is represented by two forward slashes <code>//</code>.</p><p><a href=\"https://wigging.me/cpp-programs/standard/comments.html\">Continue reading...</a></p>"
+            "content_html": "<p>C++ supports single-line and multiline comments. A single-line comment is represented by two forward slashes <code>//</code>.</p><p><a href=\"https://gavinw.me/cpp-programs/standard/comments.html\">Continue reading...</a></p>"
         },
         {
-            "id": "https://wigging.me/cpp-programs/standard/numbers.html",
-            "url": "https://wigging.me/cpp-programs/standard/numbers.html",
+            "id": "https://gavinw.me/cpp-programs/standard/numbers.html",
+            "url": "https://gavinw.me/cpp-programs/standard/numbers.html",
             "title": "Numbers",
             "date_published": "2022-12-13T00:00:00Z",
-            "content_html": "<p>Examples of integer, float, and double numbers are given below. An integer is just a whole number (no decimals). A float is a number with up to 7 decimal digits and a double is up to 15 decimal digits of precision.</p><p><a href=\"https://wigging.me/cpp-programs/standard/numbers.html\">Continue reading...</a></p>"
+            "content_html": "<p>Examples of integer, float, and double numbers are given below. An integer is just a whole number (no decimals). A float is a number with up to 7 decimal digits and a double is up to 15 decimal digits of precision.</p><p><a href=\"https://gavinw.me/cpp-programs/standard/numbers.html\">Continue reading...</a></p>"
         },
         {
-            "id": "https://wigging.me/cpp-programs/standard/commandline.html",
-            "url": "https://wigging.me/cpp-programs/standard/commandline.html",
+            "id": "https://gavinw.me/cpp-programs/standard/commandline.html",
+            "url": "https://gavinw.me/cpp-programs/standard/commandline.html",
             "title": "Command line arguments",
             "date_published": "2022-12-13T00:00:00Z",
-            "content_html": "<p>To pass command line arguments to a program, define <code>main()</code> with two arguments. The <code>argc</code> argument is the number of command line arguments including the program name while <code>argv</code> is the list of arguments passed to the program.</p><p><a href=\"https://wigging.me/cpp-programs/standard/commandline.html\">Continue reading...</a></p>"
+            "content_html": "<p>To pass command line arguments to a program, define <code>main()</code> with two arguments. The <code>argc</code> argument is the number of command line arguments including the program name while <code>argv</code> is the list of arguments passed to the program.</p><p><a href=\"https://gavinw.me/cpp-programs/standard/commandline.html\">Continue reading...</a></p>"
         },
         {
-            "id": "https://wigging.me/cpp-programs/getstarted/resources.html",
-            "url": "https://wigging.me/cpp-programs/getstarted/resources.html",
+            "id": "https://gavinw.me/cpp-programs/getstarted/resources.html",
+            "url": "https://gavinw.me/cpp-programs/getstarted/resources.html",
             "title": "Resources",
             "date_published": "2022-12-13T00:00:00Z",
-            "content_html": "<p>Below are some useful resources for learning C++ programming.</p><p><a href=\"https://wigging.me/cpp-programs/getstarted/resources.html\">Continue reading...</a></p>"
+            "content_html": "<p>Below are some useful resources for learning C++ programming.</p><p><a href=\"https://gavinw.me/cpp-programs/getstarted/resources.html\">Continue reading...</a></p>"
         },
         {
-            "id": "https://wigging.me/cpp-programs/getstarted/clang-macos.html",
-            "url": "https://wigging.me/cpp-programs/getstarted/clang-macos.html",
+            "id": "https://gavinw.me/cpp-programs/getstarted/clang-macos.html",
+            "url": "https://gavinw.me/cpp-programs/getstarted/clang-macos.html",
             "title": "Clang on macOS",
             "date_published": "2022-12-13T00:00:00Z",
-            "content_html": "<p>Check if the clang compiler is installed on your Mac using the following terminal command:</p><p><a href=\"https://wigging.me/cpp-programs/getstarted/clang-macos.html\">Continue reading...</a></p>"
+            "content_html": "<p>Check if the clang compiler is installed on your Mac using the following terminal command:</p><p><a href=\"https://gavinw.me/cpp-programs/getstarted/clang-macos.html\">Continue reading...</a></p>"
         },
         {
-            "id": "https://wigging.me/cpp-programs/getstarted/helloworld.html",
-            "url": "https://wigging.me/cpp-programs/getstarted/helloworld.html",
+            "id": "https://gavinw.me/cpp-programs/getstarted/helloworld.html",
+            "url": "https://gavinw.me/cpp-programs/getstarted/helloworld.html",
             "title": "Hello world",
             "date_published": "2022-12-13T00:00:00Z",
-            "content_html": "<p>Here is a simple example of a C++ program in a file named <code>helloworld.cpp</code>.</p><p><a href=\"https://wigging.me/cpp-programs/getstarted/helloworld.html\">Continue reading...</a></p>"
+            "content_html": "<p>Here is a simple example of a C++ program in a file named <code>helloworld.cpp</code>.</p><p><a href=\"https://gavinw.me/cpp-programs/getstarted/helloworld.html\">Continue reading...</a></p>"
         },
         {
-            "id": "https://wigging.me/cpp-programs/getstarted/cmake-install.html",
-            "url": "https://wigging.me/cpp-programs/getstarted/cmake-install.html",
+            "id": "https://gavinw.me/cpp-programs/getstarted/cmake-install.html",
+            "url": "https://gavinw.me/cpp-programs/getstarted/cmake-install.html",
             "title": "CMake install",
             "date_published": "2022-12-13T00:00:00Z",
-            "content_html": "<p>Below is an example C++ project. The CMakeLists file contains instructions for building and installing the project using the CMake command line tool.</p><p><a href=\"https://wigging.me/cpp-programs/getstarted/cmake-install.html\">Continue reading...</a></p>"
+            "content_html": "<p>Below is an example C++ project. The CMakeLists file contains instructions for building and installing the project using the CMake command line tool.</p><p><a href=\"https://gavinw.me/cpp-programs/getstarted/cmake-install.html\">Continue reading...</a></p>"
         },
         {
-            "id": "https://wigging.me/cpp-programs/getstarted/cmake-build.html",
-            "url": "https://wigging.me/cpp-programs/getstarted/cmake-build.html",
+            "id": "https://gavinw.me/cpp-programs/getstarted/cmake-build.html",
+            "url": "https://gavinw.me/cpp-programs/getstarted/cmake-build.html",
             "title": "CMake build",
             "date_published": "2022-12-13T00:00:00Z",
-            "content_html": "<p>Below is an example C++ project. The CMakeLists file contains instructions for building the project using the CMake command line tool.</p><p><a href=\"https://wigging.me/cpp-programs/getstarted/cmake-build.html\">Continue reading...</a></p>"
+            "content_html": "<p>Below is an example C++ project. The CMakeLists file contains instructions for building the project using the CMake command line tool.</p><p><a href=\"https://gavinw.me/cpp-programs/getstarted/cmake-build.html\">Continue reading...</a></p>"
         }
     ]
 }
