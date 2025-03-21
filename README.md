@@ -1,10 +1,14 @@
 # ⚙️ C++ Programs
 
-The C++ programming language is a grind. Nothing great to say about it. Anyway, this repository and accompanying website provide concise code examples that demonstrate various aspects of C++ programming.
+The C++ programming language is a grind. Nothing great to say about it. Anyway, this repository and accompanying website provide concise code examples that demonstrate various aspects of C++ programming. The website is available at https://gavinw.me/cpp-programs.
 
 ## Examples
 
-Example code is located in the `cpp-projects` and `cpp-scripts` directories. Some of the examples are discussed on the Notes page at [gavinw.me/notes](https://gavinw.me/notes).
+Example code is located in the `cpp-projects` and `cpp-scripts` directories.
+
+## Website
+
+The website is available at https://gavinw.me/cpp-programs. It is generated with the [genja tool](https://github.com/wigging/genja). The website is hosted with GitHub Pages from the `docs` folder.
 
 ## Contributing
 
