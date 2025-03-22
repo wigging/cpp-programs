@@ -31,21 +31,21 @@
         <h2>Getting started</h2>
         <hr>
         <ul style="columns:2;">
-        {% for post in posts %}
-        {% if post.category == 'getstarted' %}
-            <li><a href="{{ post.link }}">{{ post.title }}</a></li>
-        {% endif %}
-        {% endfor %}
+            <li><a href="./getstarted/clang-macos.html">Clang on macOS</a></li>
+            <li><a href="./getstarted/helloworld.html">Hello world</a></li>
+            <li><a href="./getstarted/cmake-install.html">CMake install</a></li>
+            <li><a href="./getstarted/cmake-build.html">CMake build</a></li>
         </ul>
 
         <h2>Standard library</h2>
         <hr>
         <ul style="columns:2;">
-        {% for post in posts %}
-        {% if post.category == 'standard' %}
-            <li><a href="{{ post.link }}">{{ post.title }}</a></li>
-        {% endif %}
-        {% endfor %}
+            <li><a href="./standard/strings.html">Strings</a></li>
+            <li><a href="./standard/comments.html">Comments</a></li>
+            <li><a href="./standard/include-function.html">Include function</a></li>
+            <li><a href="./standard/numbers.html">Numbers</a></li>
+            <li><a href="./standard/array2d.html">Array with two-dimensions</a></li>
+            <li><a href="./standard/commandline.html">Command line arguments</a></li>
         </ul>
 
         </div>
