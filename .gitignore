@@ -1,8 +1,7 @@
 # This project
 # ----------------------------------------------------------------------------
 
-# Build folder used for examples
-examples/build
+build
 
 # C++ language
 # Based on https://www.toptal.com/developers/gitignore?templates=c++
